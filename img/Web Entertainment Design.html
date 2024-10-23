@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)http://127.0.0.1:5500/%E6%A8%A1%E5%86%99%EF%BC%95/index.html#inquiry -->
+<html lang="jp"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Web Entertainment Design</title>
+    
+    
+    
+  <link rel="icon" href="http://127.0.0.1:5500/%E6%A8%A1%E5%86%99%EF%BC%95/img/favicon.ico"><link rel="stylesheet" href="./Web Entertainment Design_files/reset.css"><link rel="stylesheet" href="./Web Entertainment Design_files/style.css"></head>
+  <body>
+    <header id="mainvisual">
+      <div>
+        <h1><a class="wed-tag" href="http://127.0.0.1:5500/%E6%A8%A1%E5%86%99%EF%BC%95/index.html#mainvisual">WED</a></h1>
+      </div>
+      <nav>
+        <ul class="tag">
+          <li><a href="http://127.0.0.1:5500/%E6%A8%A1%E5%86%99%EF%BC%95/index.html#news">NEWS</a></li>
+          <li><a href="http://127.0.0.1:5500/%E6%A8%A1%E5%86%99%EF%BC%95/index.html#about">ABOUT</a></li>
+          <li><a href="http://127.0.0.1:5500/%E6%A8%A1%E5%86%99%EF%BC%95/index.html#business">BUSINESS</a></li>
+          <li><a href="http://127.0.0.1:5500/%E6%A8%A1%E5%86%99%EF%BC%95/index.html#company">COMPANY</a></li>
+        </ul>
+        <a class="inquiry-button" href="http://127.0.0.1:5500/%E6%A8%A1%E5%86%99%EF%BC%95/index.html#inquiry">お問い合わせ</a>
+      </nav>
+      <div class="img-big">
+        <img src="./Web Entertainment Design_files/mainvisual.jpg" alt="オフィス">
+      </div>
+      <section id="news">
+        <h2 class="news-h">
+          <p class="news-hh">NEWS</p>
+          <p class="news-p">ニュース</p>
+        </h2>
+        <ul class="news-ul">
+
+          <li class="news-li">
+            <p class="news-time">2021.01.01</p>
+            <dd class="news-press">PRESS</dd>
+            <p class="news-title"><br>タイトルタイトルタイトルタイトル</p>
+          </li>
+          <li class="news-li">
+            <p class="news-time">2021.01.01</p>
+            <dd class="news-press">PRESS</dd>
+            <p class="news-title"><br>タイトルタイトルタイトルタイトル</p>
+          </li>
+          <li class="news-li">
+            <p class="news-time">2021.01.01</p>
+            <dd class="news-press">PRESS</dd>
+            <p class="news-title"><br>タイトルタイトルタイトルタイトル</p>
+          </li>
+      </ul></section>
+    </header>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

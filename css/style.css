@@ -1,0 +1,548 @@
+html{
+  width: 100%;
+}
+
+body{
+  background-color:#f0f0f0;
+}
+
+/* トップ画面 */
+
+header{
+  width: 100%;
+  background-color: honeydew;
+}
+
+header div{
+  height: 0px;
+  width: 0px;
+}
+
+header div h1{
+  height: 80px;
+  margin-left:50px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.wed-tag{
+  text-decoration: none;
+  color: black;
+}
+
+/* トップ画像 飛ばし先 */
+
+header nav{
+  margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .tag{
+  display: flex;
+  line-height: 2;
+  margin-top: 25px;
+}
+
+header nav li {
+  margin-left: 20px;
+  height: 100%;
+}
+
+header nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+/* トップ画面 お問い合わせ */
+
+header nav .inquiry-button{
+  display: inline-block;
+  background-color: black;
+  color: #f5f5f5;
+  height: 80px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inquiry-button:hover{
+  opacity:0.6;
+}
+/* 大きい画像 */
+
+.img-big img{
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+
+/* ニッース */
+
+
+
+.news{
+  padding: 50px 0px 0px 50px;
+  height: 250%;
+  margin-bottom: 70px;
+  margin-bottom: 100px;
+}
+
+.news .news-h{
+  font-size: 35px;
+  margin-bottom: 70px;
+}
+
+.news .news-hh{
+  margin-bottom: 10px;
+}
+
+.news .news-p{
+  width: 6%;
+  font-size: 15px;
+  border-bottom: solid 1px #000;
+}
+
+.news .news-ul{
+  width: 99%;
+  height: 35%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+
+.news .news-li{
+  list-style: none;
+  border-right: solid 1px #000;
+  margin-right: 65px;
+}
+
+.news .news-time{
+  width: 35%;
+  position: relative;
+}
+
+.news .news-press{
+  color: #f5f5f5;
+  background-color: #000;
+  margin-left: 110px;
+  padding: 4px;
+  position: absolute;
+  margin-top: -20px;
+}
+
+
+
+/* 写真と文字 */
+
+.about{
+  height: 700%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.about img{
+  width: 550px;
+  height: 300px;
+}
+
+.about .about-character{
+  width: 50%;
+}
+
+.about .about-uppercaseletter{
+  font-size: 40px;
+}
+
+.about .about-h2{
+  width: 100%;
+  height: 100px;
+}
+
+.about .about-lowercaseletter{
+  font-size: 15px;
+  writing-mode: horizontal-tb;
+  width: 280px;
+}
+
+.about .about-barwire{
+  color:honeydew;
+  border-bottom: solid 1px #000;
+  width: 45px;
+}
+
+
+
+/* 事業内容 */
+
+.business{
+  width: 100%;
+  height: 780px;
+}
+
+.business .business-h2{
+  margin-left: 200px;
+}
+
+.business .business-uppercaseletter{
+  font-size: 40px;
+  height: 100%;
+  width: 100%;
+}
+
+.business .business-lowercaseletter{
+  font-size: 15px;
+  height: 100%;
+  width: 30%;
+}
+
+.business .business-barwire{
+  font-size: 45px;
+  color: #f5f5f5;
+  width: 15%;
+  border-bottom: solid 1px #000;
+}
+
+.business .business-transparentbox{
+  display: flex;
+  width: 77%;
+  margin-left: 23%;
+}
+
+.business img{
+  width: 300px;
+  height:200px;
+}
+
+.business .business-transparentbox .business-imagelist .business-image{
+  width: 440px;
+}
+
+.business .business-transparentbox .business-imagelist .business-image p{
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.business .business-transparentbox .business-imagelist .business-image .character2{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 90px;
+}
+
+/* 会社情報 */
+
+.company{
+  height: 560px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.company .company-behind{
+  margin-left: 10%;
+  background-color: honeydew;
+  width: 410px;
+  height: 420px;
+  padding: 50px 2% 0px 2% ;
+}
+
+.company .company-h2{
+  margin-bottom: 30px;
+}
+
+.company .company-uppercaseletter{
+  margin-bottom: 10px;
+  font-size: 40px;
+  width: 45%;
+  height: 100%;
+}
+
+.company .company-lowercaseletter{
+  font-size: 15px;
+  width: 15%;
+  height: 100%;
+}
+
+.company .company-barwire{
+  font-size: 45px;
+  color: honeydew;
+  width: 10%;
+  height: 100%;
+  border-bottom: solid 1px #000;
+}
+
+.company-informationlist{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-informationlist .company-informationlist2{
+  width: 20%;
+  margin-top: 10px;
+}
+
+.company-informationlist .company-informationlist3{
+  width: 80%;
+  margin-top: 10px;
+}
+
+.company .company-imagelist{
+  width: 48%;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+
+.company img{
+  width: 450px;
+  height: 280px;
+}
+
+/* 最後 */
+
+footer{
+  width: 100%;
+  height: 230px;
+  background-color: honeydew;
+}
+
+footer .footer-top{
+  width: 92%;
+  height: 230px;
+}
+
+footer .footer-top .footer-daimoto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  padding: 20px 0px;
+}
+
+
+footer .footer-top .footer-daimoto .footer-character1{
+  font-size: 60px;
+  margin-left: 100px;
+}
+
+  footer .footer-top .last{
+  width: 16%;
+  font-size: 0.625rem;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+footer .footer-top .footer-daimoto .footer-character2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 26%;
+}
+
+footer .footer-top .footer-daimoto .footer-character2 .footer-99{
+  height: 10px;
+  margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 820px) {
+
+  /* 最初 携帯 */
+
+  header{
+    font-size: 10px;
+    background-color: honeydew;
+}
+
+  header div h1{
+    margin-left:15px;
+    font-size: 15px;
+  }
+
+  .wed-tag {
+    margin-top: 2px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    margin-left: 10px;
+  }
+
+  header nav {
+    margin-left: 5%;
+}
+
+  header nav .tag{
+    line-height: 3;
+  }
+
+  header nav li{
+    margin-left: 10px;
+  }
+
+  header nav li a{
+    font-size: 10px;
+    margin-right: 5px;
+  }
+
+  header nav .inquiry-button {
+    display: contents;
+    font-size: 0px;
+  }
+
+  .img-big img {
+    margin-bottom: 50px;
+    height: 780px;
+  }
+
+  /* ニュース  携帯*/
+
+  .news{
+    padding: 10px 0px 0px 10px;
+  }
+
+
+  .news .news-p{
+    width: 17%;
+  }
+
+  .news .news-ul{
+    display: block;
+  }
+
+  .news .news-li {
+    border-right: solid 0px #000;
+    margin-bottom: 50px;
+  }
+
+  /* 写真と文字 携帯*/
+
+  .about {
+    display: block;
+    margin-bottom: 150px;
+  }
+
+  .about img{
+    width: 375px;
+    height: 230px;
+    margin-bottom: 50px;
+  }
+
+  .about .about-character {
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+  }
+
+  .about .about-barwire {
+    font-size: 1px;
+    width: 28%;
+  }
+
+  
+
+  /* 事業内容  携帯*/
+
+  .business{
+    height: 100%;
+    margin-bottom: 50px;
+  }
+
+  .business .business-h2{
+    margin-left: 10px;
+  }
+
+  .business .business-barwire{
+    font-size: 5px;
+    width: 17%;
+  }
+
+  .business .business-transparentbox{
+    margin-left: 5%;
+    display: block;
+  }
+
+  .business .business-transparentbox .business-imagelist .business-image{
+    width: auto;
+  }
+
+  .business img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .business .business-transparentbox .business-imagelist .business-image .character2{
+    margin-left: 10px;
+  }
+
+  .business .business-transparentbox .business-imagelist .business-image p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* 会社情報 */
+
+  .company{
+    margin-bottom: 500px;
+  }
+
+  .company .company-behind{
+    margin-left: 5%;
+    padding: 20px 2% 0px 2%;
+    width: 325px;
+    height: 560px;
+  }
+
+  .company .company-lowercaseletter{
+    width: 20%;
+  }
+
+  .company .company-barwire{
+    font-size: 5px;
+    width: 20%;
+  }
+
+  .company-informationlist{
+    display: block;
+  }
+
+  .company-informationlist .company-informationlist3 {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .company .company-imagelist{
+    top: auto;
+    right: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .company img{
+    width: 100%;
+    height: 450px;
+    object-fit:cover;
+  }
+
+  /* 最後 携帯 */
+
+  footer .footer-top .footer-daimoto .footer-character1{
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  footer .footer-top .footer-daimoto .footer-character2{
+    width: 56%;
+  }
+
+  footer .footer-top .last {
+    width: 53%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+}
