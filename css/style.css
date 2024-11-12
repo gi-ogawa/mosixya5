@@ -58,6 +58,7 @@ header nav li a{
 /* トップ画面 お問い合わせ */
 
 header nav .inquiry-button{
+  width: 15%;
   display: inline-block;
   background-color: black;
   color: #f5f5f5;
