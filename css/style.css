@@ -8,6 +8,23 @@ body{
 
 /* トップ画面 */
 
+.header-img{
+  margin: 35% 90%;
+  width: 80px;
+}
+
+.inner{
+  display: flex;
+  width: 100%;
+  max-width: 1032px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.header-mainvisual{
+  display: flex;
+}
+
 /* header{
   width: 100%;
   background-color: honeydew;
@@ -26,11 +43,16 @@ body{
   align-items: center;
 } */
 
-/* .wed-tag{
-  margin-left: 13vh;
+.wed-tag{
   text-decoration: none;
   color: black;
-} */
+}
+
+.inner-tag{
+  height: 100%;
+  margin-left: 10%;
+}
+
 
 /* トップ画像 飛ばし先 */
 
@@ -40,11 +62,17 @@ body{
     justify-content: space-between;
 } */
 
-/* header nav .tag{
+header nav .tag{
   display: flex;
-  line-height: 2;
-  margin-top: 25px;
-} */
+  margin-top: 10%;
+}
+
+.li-tag{
+  color: #000;
+  text-decoration: none;
+  margin-left: 10px;
+  height: 10px;
+}
 
 /* header nav li {
   margin-left: 5%;
@@ -58,7 +86,7 @@ body{
 
 /* トップ画面 お問い合わせ */
 
-/* header  .inquiry-button{
+header  .inquiry-button{
   width: 15%;
   display: inline-block;
   background-color: black;
@@ -68,11 +96,11 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-} */
+}
 
-/* .inquiry-button:hover{
+.inquiry-button:hover{
   opacity:0.6;
-} */
+}
 /* 大きい画像 */
 
 .img-big img{
@@ -354,49 +382,54 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
 
   /* 最初 携帯 */
 
-  /* header{
+  header{
     font-size: 10px;
     background-color: honeydew;
-} */
+}
 
-  /* header div h1{
+  header div h1{
     margin-left:15px;
     font-size: 15px;
-  } */
+  }
 
-  /* .wed-tag {
+  .wed-tag {
     margin-top: 2px;
     font-size: 20px;
     margin-bottom: 45px;
     margin-left: 10px;
-  } */
+  }
 
-  /* header nav {
+  header nav {
     margin-left: 5%;
-} */
+}
 
-  /* header nav .tag{
+  header nav .tag{
     line-height: 3;
-  } */
+  }
 
-  /* header nav li{
+  header nav li{
     margin-left: 10px;
-  } */
+  }
 
-  /* header nav li a{
+  header nav li a{
     font-size: 15px;
     margin-right: 5px;
-  } */
+  }
 
-  /* header .inquiry-button {
+  header .inquiry-button {
     display: contents;
     font-size: 0px;
-  } */
+  }
 
-  /* .img-big img {
+  .header-img {
+    width: 50px;
+    margin: 20%;
+  }
+
+  .img-big img {
     margin-bottom: 50px;
     height: 91vh;
-  } */
+  }
 
   /* ニュース  携帯*/
 
