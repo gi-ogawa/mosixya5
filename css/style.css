@@ -27,6 +27,7 @@ header div h1{
 }
 
 .wed-tag{
+  margin-left: 13vh;
   text-decoration: none;
   color: black;
 }
@@ -51,6 +52,7 @@ header nav li {
 }
 
 header nav li a{
+  margin-left: 13vh;
   text-decoration: none;
   color: black;
 }
