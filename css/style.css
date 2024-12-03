@@ -212,23 +212,23 @@ header  .inquiry-button{
 
 .business{
   width: 100%;
-  height: 780px;
+  height: 720px;
 }
 
 .business .business-h2{
-  margin-left: 200px;
+  margin-bottom: 0px;
 }
 
 .business .business-uppercaseletter{
   font-size: 40px;
   height: 100%;
-  width: 100%;
+  width: 22%;
 }
 
 .business .business-lowercaseletter{
   font-size: 15px;
   height: 100%;
-  width: 30%;
+  width: 6%;
 }
 
 .business .business-barwire{
@@ -513,7 +513,6 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
   }
 
   .business .business-transparentbox{
-    margin-left: 5%;
     display: block;
   }
 
