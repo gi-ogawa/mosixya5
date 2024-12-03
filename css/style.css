@@ -8,9 +8,9 @@ body{
 
 .top{
   width: 100%;
-    max-width: 1032px;
-    padding: 0 16px;
-    margin: 0 auto;
+  max-width: 1032px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
 /* トップ画面 */
@@ -154,9 +154,13 @@ header  .inquiry-button{
 }
 
 .news .news-li{
-  list-style: none;
   border-right: solid 1px #000;
   margin-right: 65px;
+
+}
+
+.news-li:last-child{
+  border-right: solid 0px #000;
 }
 
 
@@ -260,7 +264,7 @@ header  .inquiry-button{
 }
 
 .business .business-transparentbox .business-imagelist .business-image{
-  width: 350px;
+  width: 315px;
 }
 
 .business .business-transparentbox .business-imagelist .business-image p{
