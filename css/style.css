@@ -585,13 +585,19 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
 
   /* 最後 携帯 */
 
+  footer .footer-top .footer-daimoto{
+    display: block;
+  }
+
   footer .footer-top .footer-daimoto .footer-character1{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 20px;
   }
 
   footer .footer-top .footer-daimoto .footer-character2{
-    width: 56%;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
   }
 
   footer .footer-top .last {
