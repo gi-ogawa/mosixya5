@@ -190,17 +190,24 @@ header  .inquiry-button{
   margin-bottom: 100px;
 }
 
+.about-passion{
+  width: 60%;
+}
+
 .about img{
-  width: 550px;
+  width: 100%;
   height: 300px;
+  object-fit: cover;
 }
 
 .about .about-character{
-  width: 50%;
+  padding: 50px;
+  width: 40%;
+  margin-top: 150px;
 }
 
 .about .about-uppercaseletter{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .about .about-h2{
@@ -209,18 +216,22 @@ header  .inquiry-button{
 }
 
 .about .about-lowercaseletter{
-  font-size: 15px;
+  font-size: 12px;
   writing-mode: horizontal-tb;
-  width: 280px;
+  width: 25%;
 }
 
 .about .about-barwire{
   color:honeydew;
   border-bottom: solid 1px #000;
-  width: 45px;
+  width: 25%;
 }
 
-
+.about-text{
+  font-size: 15px;
+  width: 100%;
+  padding-bottom: 15px;
+}
 
 /* 事業内容 */
 
@@ -490,9 +501,13 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
     margin-bottom: 150px;
   }
 
+  .about-passion{
+    width: 100%;
+  }
+
   .about img{
-    width: 375px;
-    height: 230px;
+    width: 100%;
+    height: 300px;
     margin-bottom: 50px;
   }
 
@@ -500,14 +515,26 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
     width: 100%;
     padding: 3%;
     box-sizing: border-box;
+    margin-top: 0px;
   }
+
+  .about-uppercaseletter{
+    font-size: 40px;
+  }
+
+  .about-lowercaseletter{
+    font-size: 15px;
+  }
+
 
   .about .about-barwire {
     font-size: 1px;
-    width: 28%;
+    width: 16%;
   }
 
-  
+  .about-text{
+    font-size: 15px;
+  }
 
   /* 事業内容  携帯*/
 
