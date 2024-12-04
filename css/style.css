@@ -6,6 +6,13 @@ body{
   background-color:#f0f0f0;
 }
 
+.top{
+  width: 100%;
+  max-width: 1032px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
 /* トップ画面 */
 
 .header-img{
@@ -106,7 +113,7 @@ header  .inquiry-button{
 
 .img-big img{
   width: 100%;
-  height: 91vh;
+  height: calc(100vh - 80px);
   object-fit: cover;
 }
 
@@ -138,6 +145,7 @@ header  .inquiry-button{
 }
 
 .news .news-ul{
+  list-style: none;
   width: 99%;
   height: 35%;
   display: flex;
@@ -146,10 +154,16 @@ header  .inquiry-button{
 }
 
 .news .news-li{
-  list-style: none;
   border-right: solid 1px #000;
   margin-right: 65px;
+
 }
+
+.news-li:last-child{
+  border-right: none;
+}
+
+
 
 .news .news-time{
   width: 35%;
@@ -176,17 +190,24 @@ header  .inquiry-button{
   margin-bottom: 100px;
 }
 
+.about-passion{
+  width: 60%;
+}
+
 .about img{
-  width: 550px;
+  width: 100%;
   height: 300px;
+  object-fit: cover;
 }
 
 .about .about-character{
-  width: 50%;
+  padding: 50px;
+  width: 40%;
+  margin-top: 150px;
 }
 
 .about .about-uppercaseletter{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .about .about-h2{
@@ -195,40 +216,44 @@ header  .inquiry-button{
 }
 
 .about .about-lowercaseletter{
-  font-size: 15px;
+  font-size: 12px;
   writing-mode: horizontal-tb;
-  width: 280px;
+  width: 25%;
 }
 
 .about .about-barwire{
   color:honeydew;
   border-bottom: solid 1px #000;
-  width: 45px;
+  width: 25%;
 }
 
-
+.about-text{
+  font-size: 15px;
+  width: 100%;
+  padding-bottom: 15px;
+}
 
 /* 事業内容 */
 
 .business{
   width: 100%;
-  height: 780px;
+  height: 720px;
 }
 
 .business .business-h2{
-  margin-left: 200px;
+  margin-bottom: 0px;
 }
 
 .business .business-uppercaseletter{
   font-size: 40px;
   height: 100%;
-  width: 100%;
+  width: 22%;
 }
 
 .business .business-lowercaseletter{
   font-size: 15px;
   height: 100%;
-  width: 30%;
+  width: 6%;
 }
 
 .business .business-barwire{
@@ -239,9 +264,10 @@ header  .inquiry-button{
 }
 
 .business .business-transparentbox{
+  margin: auto;
   display: flex;
+  justify-content: space-around;
   width: 70%;
-  margin-left: 25%;
 }
 
 .business img{
@@ -250,7 +276,7 @@ header  .inquiry-button{
 }
 
 .business .business-transparentbox .business-imagelist .business-image{
-  width: 350px;
+  width: 315px;
 }
 
 .business .business-transparentbox .business-imagelist .business-image p{
@@ -446,9 +472,7 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
     width: 60px;
   }
 
-  .img-big img {
-    height: 91vh;
-  }
+ 
 
   .inner{
     display: flex;
@@ -490,9 +514,13 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
     margin-bottom: 150px;
   }
 
+  .about-passion{
+    width: 100%;
+  }
+
   .about img{
-    width: 375px;
-    height: 230px;
+    width: 100%;
+    height: 300px;
     margin-bottom: 50px;
   }
 
@@ -500,14 +528,26 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
     width: 100%;
     padding: 3%;
     box-sizing: border-box;
+    margin-top: 0px;
   }
+
+  .about-uppercaseletter{
+    font-size: 40px;
+  }
+
+  .about-lowercaseletter{
+    font-size: 15px;
+  }
+
 
   .about .about-barwire {
     font-size: 1px;
-    width: 28%;
+    width: 16%;
   }
 
-  
+  .about-text{
+    font-size: 15px;
+  }
 
   /* 事業内容  携帯*/
 
@@ -526,7 +566,6 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
   }
 
   .business .business-transparentbox{
-    margin-left: 5%;
     display: block;
   }
 
