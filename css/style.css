@@ -387,7 +387,6 @@ footer .footer-top .footer-daimoto .footer-character1{
 }
 
   footer .footer-top .last{
-  width: 16%;
   font-size: 0.625rem;
   margin-bottom: 20px;
   margin-left: 100px;
@@ -396,7 +395,7 @@ footer .footer-top .footer-daimoto .footer-character1{
 footer .footer-top .footer-daimoto .footer-character2{
   display: flex;
   flex-wrap: wrap;
-  width: 26%;
+  width:  270px;
 }
 
 footer .footer-top .footer-daimoto .footer-character2 .footer-99{
@@ -624,13 +623,18 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
 
   /* 最後 携帯 */
 
+  footer .footer-top .footer-daimoto{
+    display: block;
+  }
+
   footer .footer-top .footer-daimoto .footer-character1{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 20px;
   }
 
   footer .footer-top .footer-daimoto .footer-character2{
-    width: 56%;
+    margin-top: 10px;
+    margin-left: 20px;
   }
 
   footer .footer-top .last {
