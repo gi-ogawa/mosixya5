@@ -160,7 +160,7 @@ header  .inquiry-button{
 }
 
 .news-li:last-child{
-  border-right: solid 0px #000;
+  border-right: none;
 }
 
 
