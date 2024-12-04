@@ -6,6 +6,13 @@ body{
   background-color:#f0f0f0;
 }
 
+.top{
+  width: 100%;
+  max-width: 1032px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
 /* トップ画面 */
 
 .header-img{
@@ -138,6 +145,7 @@ header  .inquiry-button{
 }
 
 .news .news-ul{
+  list-style: none;
   width: 99%;
   height: 35%;
   display: flex;
@@ -146,10 +154,16 @@ header  .inquiry-button{
 }
 
 .news .news-li{
-  list-style: none;
   border-right: solid 1px #000;
   margin-right: 65px;
+
 }
+
+.news-li:last-child{
+  border-right: none;
+}
+
+
 
 .news .news-time{
   width: 35%;
@@ -250,7 +264,7 @@ header  .inquiry-button{
 }
 
 .business .business-transparentbox .business-imagelist .business-image{
-  width: 350px;
+  width: 315px;
 }
 
 .business .business-transparentbox .business-imagelist .business-image p{
