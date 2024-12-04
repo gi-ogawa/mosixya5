@@ -331,6 +331,11 @@ header  .inquiry-button{
 
 .company .company-imagelist{
   width: 48%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-evenly;
+  left: 48%;
 }
 
 .company img{
