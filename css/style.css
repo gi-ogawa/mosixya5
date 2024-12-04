@@ -209,7 +209,7 @@ header  .inquiry-button{
 .about .about-barwire{
   color:honeydew;
   border-bottom: solid 1px #000;
-  width: 45px;
+  width: 25%;
 }
 
 .about-text{
@@ -488,6 +488,10 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
     margin-bottom: 150px;
   }
 
+  .about-passion{
+    width: 100%;
+  }
+
   .about img{
     width: 100%;
     height: 300px;
@@ -498,6 +502,7 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
     width: 100%;
     padding: 3%;
     box-sizing: border-box;
+    margin-top: 0px;
   }
 
   .about-uppercaseletter{
@@ -511,7 +516,7 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
 
   .about .about-barwire {
     font-size: 1px;
-    width: 28%;
+    width: 16%;
   }
 
   .about-text{
