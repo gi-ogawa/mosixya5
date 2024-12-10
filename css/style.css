@@ -299,7 +299,7 @@ header  .inquiry-button{
 }
 
 .company .company-behind{
-  margin-left: 10%;
+  margin-left: 0%;
   background-color: #fff;
   width: 410px;
   height: 350px;
@@ -607,10 +607,11 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
   }
 
   .company .company-behind{
-    margin-left: 5%;
+    margin-left: 0px;
     padding: 20px 2% 0px 2%;
     width: 80%;
     height: 415px;
+    margin: auto;
   }
 
   .company .company-lowercaseletter{
@@ -632,14 +633,16 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
   }
 
   .company .company-imagelist{
+    padding: 0 2%;
+    box-sizing: border-box;
     width: 100%;
     position: static;
   }
 
   .company img{
     margin-top: 10px;
-    width: 95%;
-    height: 450px;
+    width: 100%;
+    height: 400px;
     object-fit:cover;
   }
 
