@@ -293,16 +293,16 @@ header  .inquiry-button{
 /* 会社情報 */
 
 .company{
-  height: 560px;
   position: relative;
   margin-bottom: 100px;
+  display: flex;
 }
 
 .company .company-behind{
   margin-left: 10%;
-  background-color: honeydew;
+  background-color: #fff;
   width: 410px;
-  height: 420px;
+  height: 350px;
   padding: 50px 2% 0px 2% ;
 }
 
@@ -312,14 +312,14 @@ header  .inquiry-button{
 
 .company .company-uppercaseletter{
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 25px;
   width: 45%;
   height: 100%;
 }
 
 .company .company-lowercaseletter{
   font-size: 15px;
-  width: 15%;
+  width: 60px;
   height: 100%;
 }
 
@@ -339,23 +339,35 @@ header  .inquiry-button{
 .company-informationlist .company-informationlist2{
   width: 20%;
   margin-top: 10px;
+  font-size: 10px;
 }
 
 .company-informationlist .company-informationlist3{
   width: 80%;
   margin-top: 10px;
+  font-size: 10px;
+}
+
+.company-informationlist .company-informationlist4{
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 80px;
+  font-size: 10px;
 }
 
 .company .company-imagelist{
   width: 48%;
+  display: flex;
   position: absolute;
-  top: 20%;
-  right: 5%;
+  align-items: center;
+  justify-content: space-evenly;
+  left: 48%;
 }
 
 .company img{
   width: 450px;
   height: 280px;
+  margin-top: 80px;
 }
 
 /* 最後 */
@@ -407,6 +419,14 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
 @media only screen and (max-width: 810px) {
 
   /* 最初 携帯 */
+
+  .top {
+    width: 98%;
+    max-width: 1032px;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+
 
   header{
     font-size: 10px;
@@ -579,14 +599,18 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
   /* 会社情報 */
 
   .company{
-    margin-bottom: 500px;
+    display: block;
+    margin-bottom: 0px;
+    align-items: center;
+    position: relative;
   }
 
   .company .company-behind{
-    margin-left: 5%;
+    margin-left: 0px;
     padding: 20px 2% 0px 2%;
-    width: 325px;
-    height: 560px;
+    width: 80%;
+    height: 415px;
+    margin: auto;
   }
 
   .company .company-lowercaseletter{
@@ -608,17 +632,25 @@ footer .footer-top .footer-daimoto .footer-character2 .footer-99{
   }
 
   .company .company-imagelist{
-    top: auto;
-    right: auto;
+    padding: 0 2%;
+    box-sizing: border-box;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    position: static;
   }
 
   .company img{
+    margin-top: 10px;
     width: 100%;
-    height: 450px;
+    height: 400px;
     object-fit:cover;
+  }
+
+  .company .company-uppercaseletter {
+    font-size: 35px;
+  }
+
+  .company-informationlist .company-informationlist4{
+    margin-left: 1%;
   }
 
   /* 最後 携帯 */
